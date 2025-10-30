@@ -2,8 +2,10 @@ body {
     background-color: #F4D04E;
     font-family: 'Figtree', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 24px;
     min-height: 100vh;
 }
 .card {
@@ -15,14 +17,21 @@ body {
     padding: 24px;
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 .card-header {
     border-radius: 12px;
+}
+.main-text {
+    width: 336px;
+    height: 194px;
+    margin-bottom: 12px;
 }
 .card-footer {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 24px;
 }
 .small-bold {
     font-weight: bold;
@@ -40,4 +49,16 @@ p, h1, h2 {
     line-height: 150%;
     letter-spacing: 0px;
 }
-
+.yellow {
+    background-color: #F4D04E;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+.main-text a {
+    text-decoration: none;
+    color: black;
+}
+.main-text a:hover {
+    color:#F4D04E;
+}
