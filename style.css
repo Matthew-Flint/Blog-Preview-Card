@@ -7,7 +7,16 @@ body {
     background-color: white;
     border-radius: 24px;
     box-shadow: 8px 8px rgba(0, 0, 0);
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
 }
-.card img {
+.card-header {
     border-radius: 12px;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
