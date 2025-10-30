@@ -73,3 +73,36 @@ p, h1, h2 {
 .attribution a:hover {
     opacity: 0.6;
 }
+@media screen and (max-width: 600px) {
+    .card {
+        width: 324px;
+        height: 492px;
+    }
+    body {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 400px) {
+    .card {
+        width: 280px;
+    }
+    .main-text {
+        width: 312px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .card {
+        width: 240px;
+        height: 450px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .main-text {
+        width: 260px;
+    }
+}
